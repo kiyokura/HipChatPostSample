@@ -17,4 +17,4 @@ See: https://github.com/KyleGobel/Hipchat-CS
 Set your own API token to Web.config -> configuration -> appSettings -> hipchat_auth_token.
 
 ## Blog Entry
-See: xxxxxxxxxxx (Japanese)
+See: http://kiyokura.hateblo.jp/entry/2014/09/28/005959 (Japanese)
