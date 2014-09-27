@@ -12,10 +12,9 @@ namespace HipChatPostSample.Controllers
     public ActionResult Index()
     {
       var client = new HipchatClient();
-      var rooms = client.GetAllRooms().Items
-                    .Select(x => new { Id = x.Id, Name = x.Name });
-      var selectList = new SelectList(rooms, "Id", "Name");
-      ViewBag.room = selectList;
+      var rooms = client.GetAllRooms();
+      var selectList = new SelectList(rooms.Items, "Id", "Name");
+      ViewBag.room = selectList; 
       return View();
     }
 
