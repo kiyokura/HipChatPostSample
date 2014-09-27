@@ -1,0 +1,25 @@
+﻿@{
+  Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Index</title>
+</head>
+<body>
+  <h1>HipChat API Sample</h1>
+  <h2>Send Notification to HipChat</h2>
+  @using (Html.BeginForm("PostMesasge", "Home", FormMethod.Post))
+  {
+    <dl>
+      <dt>room</dt>
+      <dd>@Html.DropDownList("room")</dd>
+      <dt>message</dt>
+      <dd><input type="text" name="message" value="" /></dd>
+    </dl>
+    <input type="submit" value="Send Notification to HipChat" />
+  }
+
+</body>
+</html>
