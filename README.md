@@ -13,5 +13,8 @@ See : https://www.hipchat.com/docs/apiv2
 Hipchat-CS is C# wrapper of V2 Hipchat API.
 See: https://github.com/KyleGobel/Hipchat-CS
 
+##How Tow Execute
+Set your own API token to Web.config -> configuration -> appSettings -> hipchat_auth_token.
+
 ## Blog Entry
 See: xxxxxxxxxxx (Japanese)
